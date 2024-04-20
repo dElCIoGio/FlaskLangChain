@@ -1,13 +1,14 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/app" }
-  ],
-  "functions": {
-    "messages": {
-      "runtime": "vercel-php@0.5.2"
-    },
-    "call": {
-      "runtime": "vercel-php@0.5.2"
+  "builds": [
+    {
+      "src": "api/app.py",
+      "use": "@vercel/python"
     }
-  }
+  ],
+  "routes":[
+    {
+      "src": "/(.*)",
+      "dest": "api/main.py"
+    }
+  ]
 }
