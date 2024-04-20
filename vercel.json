@@ -9,9 +9,5 @@
     "call": {
       "runtime": "vercel-php@0.5.2"
     }
-  },
-  "routes": [
-    { "src": "/message", "dest": "/api/message" },
-    { "src": "/call", "dest": "/api/call" }
-  ]
+  }
 }
