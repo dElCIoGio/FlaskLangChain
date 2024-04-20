@@ -1,9 +1,9 @@
 {
   "functions": {
-    "message": {
+    "api/message": {
       "runtime": "vercel-php@0.5.2"
     },
-    "call": {
+    "api/call": {
       "runtime": "vercel-php@0.5.2"
     }
   },
