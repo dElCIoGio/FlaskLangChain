@@ -1,10 +1,10 @@
 {
   "functions": {
     "message": {
-      "runtime": "python3.9"
+      "runtime": "python"
     },
     "call": {
-      "runtime": "python3.9"
+      "runtime": "python"
     }
   },
   "routes": [
