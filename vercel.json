@@ -1,10 +1,10 @@
 {
   "functions": {
     "message": {
-      "runtime": "python"
+      "runtime": "vercel-php@0.5.2"
     },
     "call": {
-      "runtime": "python"
+      "runtime": "vercel-php@0.5.2"
     }
   },
   "routes": [
