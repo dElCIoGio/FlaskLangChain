@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "message": {
+      "runtime": "python3.9"
+    },
+    "call": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/message", "dest": "/api/message" },
+    { "src": "/call", "dest": "/api/call" }
+  ]
+}
