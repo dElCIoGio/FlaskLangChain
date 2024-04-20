@@ -1,9 +1,6 @@
 {
-  "build":[
-    {"src": "app.py", "use": "@vercel/python"}
-  ],
   "functions": {
-    "message": {
+    "api/app.py": {
       "runtime": "vercel-php@0.5.2"
     },
     "call": {
