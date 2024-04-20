@@ -1,6 +1,9 @@
 {
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/app" }
+  ],
   "functions": {
-    "users/app.py": {
+    "messages": {
       "runtime": "vercel-php@0.5.2"
     },
     "call": {
